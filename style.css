@@ -1,0 +1,160 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #E5E5E5;
+}
+/* .container{
+    margin:auto;
+   width: 960px;
+    height: 650px; 
+    padding:5px;
+    top: 40px;
+} */
+header{
+    width:100%;
+    height:50px;
+   
+}
+
+main{
+    width:100%;
+    height:90%;
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+section{
+    width:30%;
+    height:100%;
+}
+.izquierda{
+width:50%;
+}
+.derecha{
+    margin-left: 90px;
+    border-radius: 24px;
+    width:30%;
+    background-color:white;
+}
+.contenedor{
+    width:100%;
+    height: 50%;
+    text-align: center;
+    
+}
+.contenedorH3{
+    width:100%;
+    height:40%;
+    text-align: center;
+    
+}
+.contenedorP{
+    
+    width:100%;
+    height:20%;
+    text-align: center;
+}
+
+.input-texto{
+    
+    margin-top: 90px;
+    background-color: #E5E5E5;
+    border-color:#E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color:blue;
+    resize: none;
+    
+    
+}
+::placeholder{
+    color: #0A3871;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-image: url("imagenes/Munneco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    resize: none;
+    border-color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    
+}
+.copiar{
+    position:relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    margin-left: 50px;
+    border-radius: 24px;
+    background-color: white;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+
+}
+.btbtncopiar{
+    width: 35%;
+    height: 20%;
+    display: block;
+    margin:auto;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    top: 700px;
+    
+}
+.encriptar{
+    background-color: darkblue;
+    color:white;
+    border-radius: 24px;
+    align-items: flex-start;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    
+
+}
+.desencriptar{
+    margin-left: 40px;
+    border-radius: 24px;
+    align-items: flex-start;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+}
+footer{
+    width:100%;
+    height:50px;
+    padding: 24px;
+    margin-left: 70px;
+    color: #0A3871;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ocultar{
+    display:none;
+}
+.mostrar{
+    display:block;
+}
+#texto{
+    margin-top: 230px;
+    margin-left: 50px;
+}
